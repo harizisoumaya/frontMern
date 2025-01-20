@@ -1,0 +1,51 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.admin-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.admin-avatar {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #fff;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    color: #0056b3;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.dashboard-main {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
